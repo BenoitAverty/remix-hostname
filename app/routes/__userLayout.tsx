@@ -15,8 +15,8 @@ export default function User(): ReactElement {
   );
 }
 
-export function loader({ params }: LoaderArguments): LoaderResult {
+export function loader({ request }: LoaderArguments): LoaderResult {
   return {
-    name: params.user,
+    name: new URL(request.url).host.split('.')[0],
   };
 }
