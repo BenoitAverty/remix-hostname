@@ -1,0 +1,4 @@
+# Build & cache directories
+/.cache/
+/build/
+/public/build/

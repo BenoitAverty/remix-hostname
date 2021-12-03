@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# NPM
+/node_modules/
+
+# Build & cache directories
+/.cache/
+/build/
+/public/build/
